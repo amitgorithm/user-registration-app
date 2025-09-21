@@ -26,7 +26,7 @@ function App() {
     setFormData({ ...formData, [name]: value });
   };
 
-  // Handle file selection
+  
   const handleFileChange = (e) => {
     setIdProofFile(e.target.files[0]);
   };
